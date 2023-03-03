@@ -1,6 +1,5 @@
 import "./Banner.css";
-import{useState, useEffect} from "react"
-import {useBannerProduct} from "../../context/ProductsContext";
+import{useState, useEffect} from "react";
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import axios from "axios";
