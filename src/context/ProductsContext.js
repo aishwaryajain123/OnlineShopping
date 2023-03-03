@@ -16,7 +16,7 @@ function ProductContextProvider ({children}){
        const getCategories = async () => {
            await axios.get('categories')
            .then(res=>setCategories(res.data))
-           .catch(err => setError(err))
+           .catch(err => setError(error))
        }
        getCategories();
      },[]);
