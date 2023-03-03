@@ -16,9 +16,10 @@ function ProductContextProvider ({children}){
        const getCategories = async () => {
            await axios.get('categories')
            .then(res=>setCategories(res.data))
-           .catch(err => setError(error))
+           .catch(err => setError(err))
        }
        getCategories();
+       // eslint-disable-next-line react-hooks/exhaustive-deps 
      },[]);
      const categoryValue = {categories , setCategories,category, setCategory};
      const backDrop = {showBackDrop , setShowBackDrop};
