@@ -42,7 +42,7 @@ function Banner() {
                 </div>          
                <div className="banner__item">
            <div className="banner__img">
-               <img className="banner__img--image" src={bannerItems[itemNumber]?.image} alt ="image" />
+               <img className="banner__img--image" src={bannerItems[itemNumber]?.image} alt ="product" />
            </div>
             <div className="banner__contents">
                 <h3>{bannerItems[itemNumber]?.title}</h3>
