@@ -23,7 +23,7 @@ function FullProduct() {
        ProductBody = (
      <div className="fullProduct__des">
            <div className="fullProduct__des--img">
-              <img src={product.image}  alt="image"/>
+              <img src={product.image}  alt="product"/>
            </div>
            <div className="fullProduct__des--body">
                <h3 className="fullProduct__des--title">{product.title}</h3>
