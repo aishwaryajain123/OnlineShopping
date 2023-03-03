@@ -9,6 +9,7 @@ export const useBackDrop = () => useContext(ShowBackDrop)
 
 function ProductContextProvider ({children}){
     const [categories , setCategories] = useState([]);
+    // eslint-disable-next-line no-unused-vars
     const [error,setError] = useState(false);
     const [category, setCategory] = useState("Category");
     const [showBackDrop , setShowBackDrop] = useState(false);
