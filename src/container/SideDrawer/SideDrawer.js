@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function SideDrawer() {
-    const {category , setCategory,categories} = useAllCategories();
+    const {setCategory,categories} = useAllCategories();
     let history = useHistory();
     const{auth,setAuth} = useAuthContext();
     const handleCategoryChange = (category) => {

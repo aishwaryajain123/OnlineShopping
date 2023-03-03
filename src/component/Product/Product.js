@@ -4,7 +4,7 @@ function Product({productItem}) {
     return (
         <div className="product">
             <div className="product__image" >
-            <img src ={productItem.image} className="product__image--img" alt="product" />
+            <img src ={productItem.image} className="product__image--img" alt="productimage" />
             </div>
             <hr/>
             <div className="product__description">

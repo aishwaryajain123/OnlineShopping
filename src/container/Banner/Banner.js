@@ -1,5 +1,5 @@
 import "./Banner.css";
-import{useState, useEffect} from "react";
+import{useState, useEffect} from "react"
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 import axios from "axios";
@@ -42,7 +42,7 @@ function Banner() {
                 </div>          
                <div className="banner__item">
            <div className="banner__img">
-               <img className="banner__img--image" src={bannerItems[itemNumber]?.image} alt ="product" />
+               <img className="banner__img--image" src={bannerItems[itemNumber]?.image} alt ="productimage" />
            </div>
             <div className="banner__contents">
                 <h3>{bannerItems[itemNumber]?.title}</h3>
