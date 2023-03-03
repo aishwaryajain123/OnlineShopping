@@ -17,7 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Navbar() {
     const {category , setCategory,categories} = useAllCategories();
-    const {showBackDrop , setShowBackDrop} = useBackDrop();
+    const {setShowBackDrop} = useBackDrop();
     const {auth , setAuth} = useAuthContext();
     const [searchInfo , setSearchInfo] = useState("")
 
@@ -68,7 +68,7 @@ function Navbar() {
             <Link to="/">
             <div className="navbar__Icon">
                <img className="navbar__icon--img"
-                    src={Icon}/>
+                    src={Icon} alt="product"/>
             </div>
             </Link>
 
